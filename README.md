@@ -44,7 +44,7 @@ A full-fledged **React eCommerce web application** built with **React Router, Co
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React (Class Components)
+- **Frontend**: React
 - **State Management**: Context API
 - **Routing**: React Router
 - **Authentication**: JWT (via js-cookie)
@@ -55,47 +55,60 @@ A full-fledged **React eCommerce web application** built with **React Router, Co
 
 ## 📂 Project Structure
 ```bash 
-src/
-│── App.js # Root component, sets up routes
-│── context/CartContext.js # Context API for cart management
-│── components/
-│ ├── LoginForm/ # Login screen
-│ ├── Home/ # Landing page
-│ ├── Products/ # Product listing page
-│ ├── ProductItemDetails/ # Product details view
-│ ├── Cart/ # Cart page
-│ ├── FiltersGroup/ # Search, category, and rating filters
-│ ├── ProductCard/ # Reusable product card component
-│ ├── ProtectedRoute/ # Guards private routes
-│ ├── FailureView/ # API error view
-│ └── NotFound/ # 404 error page
-│── App.css # Global styles
+  src/
+    │── context/
+      └── CartContext.js # Context API for cart management
+    │── components/
+    │ ├── LoginForm/ # Login screen
+    │ ├── Home/ # Landing page
+    │ ├── Products/ # Product listing page
+    │ ├── ProductItemDetails/ # Product details view
+    │ ├── Cart/ # Cart page
+    │ ├── FiltersGroup/ # Search, category, and rating filters
+    │ ├── ProductCard/ # Reusable product card component
+    │ ├── ProtectedRoute/ # Guards private routes
+    │ ├── FailureView/ # API error view
+    │ └── NotFound/ # 404 error page
+    │── App.js # Root component, sets up routes  
+    │── App.css # Global styles
+
+```
+---
+
+# ⚡️ Installation & Setup Guide
+
+Follow the steps below to set up and run the **NxtTrendz** application on your local machine.
+
+---
+
+## 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/nxttrendz.git
+cd nxttrendz
 ```
 
----
+##  2. Install Dependencies
+```bash
+npm install
+```
 
-## ⚡️ Installation & Setup
+## 3. Run the Development Server
+```bash
+npm start
+```
 
-1. **Clone repository:**
-   ```bash
-   git clone https://github.com/your-username/nxttrendz.git
-   cd nxttrendz
-2. **Install dependencies:**
+### 4. Open in Browser
+```bash
+Navigate to:
+👉 http://localhost:3000
+```
 
-    npm install
 
-3. **Run development server:**
+## 🔑 Test Credentials
 
-    npm start
+Use the following credentials to explore the application:
 
-4. **Open in browser:**
+- **Username:** `rahul`  
+- **Password:** `rahul@2021`
 
-    👉 http://localhost:3000
----
 
-**🔑 Test Credentials**
-To explore the app, use the following credentials:
-
-    Username: rahul
-
-    Password: rahul@2021
