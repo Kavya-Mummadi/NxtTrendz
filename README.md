@@ -111,4 +111,9 @@ Use the following credentials to explore the application:
 - **Username:** `rahul`  
 - **Password:** `rahul@2021`
 
+---
 
+# 🚀 Deployment
+
+This project is deployed on **Vercel** for live preview.  
+You can access the application here: [https://nxt-trendz-ecommerce-bice.vercel.app/]
